@@ -9,12 +9,12 @@ export function ContactSection() {
     },
     {
       icon: Github,
-      href: "#",
+      href: "https://github.com/JAISE69",
       label: "GitHub"
     },
     {
       icon: FileText,
-      href: "#",
+      href: "/resume.pdf",
       label: "Resume"
     }
   ];
