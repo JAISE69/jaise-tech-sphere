@@ -22,31 +22,20 @@ export function ProfileHeader() {
       </div>
 
       {/* Resume Button */}
-      <Button 
-        variant="outline" 
-        className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
+      <a 
+        href="/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex"
       >
-        <Download className="mr-2 h-4 w-4" />
-        Resume
-      </Button>
-
-      {/* About Text */}
-      <div className="max-w-2xl text-muted-foreground leading-relaxed">
-        <p className="mb-4">
-          I am a Computer Science engineering student with a strong foundation in full-stack development, 
-          machine learning, and cross-functional teamwork. With a passion for applying technology to solve 
-          real-world problems and streamline digital processes.
-        </p>
-        <p className="mb-4">
-          My technical skills include secure coding practices, web development, and automation solutions. 
-          I'm proficient in languages such as JavaScript, Python, Java, and C++, and have experience with 
-          frameworks like React, UiPath, and various development tools.
-        </p>
-        <p>
-          I'm constantly learning and staying updated with the latest technology trends to ensure that 
-          I can address emerging challenges and opportunities effectively.
-        </p>
-      </div>
+        <Button 
+          variant="outline" 
+          className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
+        >
+          <Download className="mr-2 h-4 w-4" />
+          Resume
+        </Button>
+      </a>
 
       {/* Contact Info */}
       <div className="flex flex-col sm:flex-row gap-6 text-sm text-muted-foreground">
